@@ -1,15 +1,11 @@
 #include "main.h"
 
 /**
- * main - check the code
- * n - n is the input parameter
- * Return: Always 0.
+ * @n - n is the input parameter
  */
 
-int main(int *n)
+void reset_to_98(int *n)
 {
-*p = &n;
-p = 98;
-
-return (0);
+int *p = &n;
+*p = 98;
 }
