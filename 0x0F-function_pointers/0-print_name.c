@@ -5,11 +5,9 @@
 * @name: Function input argument.
 */
 
-
 void print_name(char *name, void (*f)(char *))
 {
-    if ((name || f) ==  NULL){
-        return;
-    }
-        f(name);
+if ((name || f) ==  NULL)
+	return;
+f(name);
 }
