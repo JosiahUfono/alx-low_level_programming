@@ -25,7 +25,7 @@ va_start(args, n);
 	{
 		int temp = va_arg(args, int);
 		num_sum += temp;
-	}	
+	}
 va_end(args);
 return (num_sum);
 }
