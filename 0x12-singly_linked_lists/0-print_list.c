@@ -4,7 +4,7 @@
  * print_list - function that prints all elements in the list
  * size_t - returns the number of nodes
  * @h: the struct node
- * return: returns number of nodes in the list: @j
+ * Return: returns number of nodes in the list: @j
 */
 
 size_t print_list(const list_t *h)
