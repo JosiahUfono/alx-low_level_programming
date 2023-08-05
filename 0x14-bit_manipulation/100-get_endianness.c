@@ -4,6 +4,6 @@
  */
 int get_endianness(void)
 {
-    int long endianness = 5 << 8 == 0 ? 0 : 1;
+	int long endianness = 5 << 8 == 0 ? 0 : 1;
 	return (endianness);
 }
